@@ -13,15 +13,6 @@ colorama==0.4.6
 cryptography==46.0.5
 distro==1.9.0
 frozenlist==1.8.0
-google-ai-generativelanguage==0.6.15
-google-api-core==2.30.0
-google-api-python-client==2.190.0
-google-auth==2.48.0
-google-auth-httplib2==0.3.0
-google-genai==1.64.0
-googleapis-common-protos==1.72.0
-grpcio==1.78.1
-grpcio-status==1.71.2
 gunicorn==25.1.0
 h11==0.16.0
 httpcore==1.0.9
@@ -36,7 +27,6 @@ openai==2.21.0
 otree==6.0.11
 packaging==26.0
 propcache==0.4.1
-proto-plus==1.27.1
 protobuf==5.29.6
 psycopg2-binary==2.9.11
 pyasn1==0.6.2
