@@ -1,0 +1,20 @@
+{% extends "global/Page.html" %}
+{% block content %}
+
+<h3>AI와 대화 ({{ player.turn }}/{{ C.N_TURNS }})</h3>
+
+{% if logs %}
+    <div style="margin-bottom:20px;">
+        {% for log in logs %}
+            <p><b>사용자:</b> {{ log.user_text }}</p>
+            <p><b>AI:</b> {{ log.ai_text }}</p>
+            <hr>
+        {% endfor %}
+    </div>
+{% endif %}
+
+{{ formfields }}
+
+<button class="btn btn-primary">전송</button>
+
+{% endblock %}

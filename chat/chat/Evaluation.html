@@ -1,0 +1,17 @@
+{% extends "global/Page.html" %}
+{% block content %}
+
+<h3>AI 응답</h3>
+
+<p><b>AI:</b></p>
+<p>{{ player.ai_text }}</p>
+
+<hr>
+
+<h4>AI 평가</h4>
+
+{{ formfields }}
+
+<button class="btn btn-primary">다음</button>
+
+{% endblock %}
