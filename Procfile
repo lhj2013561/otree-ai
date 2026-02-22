@@ -1,1 +1,1 @@
-web: gunicorn otree.asgi:application --bind 0.0.0.0:$PORT
+web: cd mysite && gunicorn otree.asgi:application --bind 0.0.0.0:$PORT
